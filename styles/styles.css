@@ -91,6 +91,10 @@ main .content1 .section1 form button {
 main .content1 .section1 .fromSection1 {
   font-size: 14px;
   margin: 8px 0 0 50px;
+  text-decoration: none;
+}
+main .content1 .section1 .fromSection1:hover {
+  text-decoration: underline;
 }
 main .content1 .section1 .usersAndPartners {
   display: flex;

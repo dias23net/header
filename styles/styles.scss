@@ -88,6 +88,10 @@ main {
       .fromSection1 {
         font-size: 14px;
         margin: 8px 0 0 50px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
       }
       .usersAndPartners {
         display: flex;
