@@ -7,8 +7,10 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <title>header</title>
@@ -17,53 +19,87 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#" class="link">Продукт</a></li>
-          <li><a href="#" class="link">Решения</a></li>
-          <li><a href="#" class="link">Ресурсы</a></li>
-          <li><a href="#" class="link">Предприятия</a></li>
-          <li><a href="#" class="link">Тарифы</a></li>
+          <li><a href="#" target="_blank">Продукт</a></li>
+          <li><a href="#" target="_blank">Решения</a></li>
+          <li><a href="#" target="_blank">Ресурсы</a></li>
+          <li><a href="#" target="_blank">Предприятия</a></li>
+          <li><a href="#" target="_blank">Тарифы</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Место для командной работы</h1>
-        <p>
-          Интерактивная онлайн-доска для совместной работы в команд - в любое
-          время, в любом месте.
-        </p>
-        <form action="/register" method="get">
-          <input type="email" name="email" id="email" />
-          <button id="heroButton">Начать бесплатно</button>
-        </form>
-        <img src="./" alt="" />
-      </section>
-      <section>
-        <h2>Работайте вместе, где бы вы ни находились</h2>
-        <p>
-          Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда
-          может общаться, сотрудничать и совместно заниматься творчеством в
-          одном пространстве, из любой точки мира.
-        </p>
-        <a href="#" class="link">Узнать больше</a>
-      </section>
-      <section>
-        <h3>Закройте лишние вкладки — всё уже здесь</h3>
-        <p>
-          Редактируете ли вы документы в Google Docs, работаете над задачами в
-          Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с
-          уже известными и полюбившимися вам инструментами.
-        </p>
-        <a href="#" class="link">Узнать больше</a>
-      </section>
-    </main>
-    <footer>
-      <div class="copyright">&copy; 2023 Miro</div>
-      <div>
-        <a href="#" class="link">Условия пользования</a>
-        <a href="#" class="link">Политика конфедициальности</a>
-        <a href="#" class="link">Управление файлами cookies</a>
+      <div class="content1">
+        <div class="section1">
+          <h1>Место для командной работы</h1>
+          <p class="fromH1">
+            Интерактивная онлайн-доска для совместной работы в команд - в любое
+            время, в любом месте.
+          </p>
+          <form action="/register" method="get">
+            <input type="email" name="email" id="email" />
+            <button id="heroButton">Начать бесплатно</button>
+          </form>
+          <a class="fromSection1" href="#">
+            Всегда бесплатно — кредитная карта не нужна</a
+          >
+          <div class="usersAndPartners">
+            <p class="users">
+              <data id="count-users" value="0">0</data>+ пользователей
+            </p>
+            <a href="#"
+              ><img
+                class="imgPartners"
+                src="./images/walmart.png"
+                alt="walmart"
+            /></a>
+            <a href="#"
+              ><img class="imgPartners" src="./images/cisco.png" alt="cisco"
+            /></a>
+            <a href="#"
+              ><img
+                class="imgPartners"
+                src="./images/deloitte.png"
+                alt="deloitte"
+            /></a>
+            <a href="#"
+              ><img class="imgPartners" src="./images/volvo.png" alt="volvo"
+            /></a>
+          </div>
+        </div>
       </div>
-    </footer>
+      <img class="imgFonts" src="./images/1.png" alt="image1" />
+      <!-- <content>
+        <section>
+          <h2>Работайте вместе, где бы вы ни находились</h2>
+          <p>
+            Работая в офисе, удалённо или в гибридном формате, с Miro ваша
+            команда может общаться, сотрудничать и совместно заниматься
+            творчеством в одном пространстве, из любой точки мира.
+          </p>
+          <a href="#">Узнать больше</a>
+        </section>
+        <img src="./images/2.png" alt="" />
+      </content>
+      <content>
+        <img src="./images/3.png" alt="" />
+        <section>
+          <h3>Закройте лишние вкладки — всё уже здесь</h3>
+          <p>
+            Редактируете ли вы документы в Google Docs, работаете над задачами в
+            Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций
+            с уже известными и полюбившимися вам инструментами.
+          </p>
+          <a href="#">Узнать больше</a>
+        </section>
+      </content> -->
+    </main>
+    <!-- <footer>
+      <div>&copy; 2023 Miro</div>
+      <div>
+        <a href="#">Условия пользования</a>
+        <a href="#">Политика конфедициальности</a>
+        <a href="#">Управление файлами cookies</a>
+      </div>
+    </footer> -->
   </body>
 </html>
