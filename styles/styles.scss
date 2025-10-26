@@ -6,13 +6,16 @@
   color: #050038;
 }
 header {
+  position: fixed;
   display: flex;
   justify-content: center;
+  width: 100vw;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 60px;
   nav {
-    position: fixed;
     align-content: center;
     align-items: center;
-    background-color: #fff;
     width: 1366px;
     height: 90px;
     ul {
@@ -40,18 +43,14 @@ header {
 main {
   margin: 0 auto;
   width: 1366px;
+  padding: 120px 0;
   .mainContent {
     display: flex;
     align-items: center;
     height: 600px;
-    margin-top: 120px;
     margin-bottom: 150px;
-    border-top: 1px solid #dddddd;
     &:last-child {
-      margin-bottom: 120px;
-    }
-    &:first-child {
-      border-top: none;
+      margin-bottom: 0;
     }
     .contentSection {
       display: flex;
@@ -86,7 +85,7 @@ main {
           border: 1px solid #9b99af;
           border-radius: 32px;
           &:hover {
-            border: 2px solid #4262ff;
+            border: 1px solid #4262ff;
           }
         }
         button {
