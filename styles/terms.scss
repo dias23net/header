@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #808080;
+}
+.terms {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  .container {
+    width: 800px;
+    height: 100vh;
+    padding: 20px 50px;
+    background-color: #e4e4e4;
+    h1 {
+      text-align: center;
+      color: #696969;
+      font-size: 42px;
+      margin-top: 60px;
+    }
+  }
+  .terms__content {
+    list-style: inside;
+    .terms__section {
+      margin-top: 30px;
+      p {
+        margin: 10px 0 10px;
+      }
+    }
+  }
+}

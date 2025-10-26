@@ -31,9 +31,10 @@ header nav ul li:first-child {
 }
 header nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #888888;
 }
 header nav ul li a:hover {
+  color: #757575;
   text-decoration: underline;
 }
 
@@ -46,15 +47,21 @@ main {
 main .mainContent {
   display: flex;
   align-items: center;
-  margin-bottom: 200px;
+  height: 600px;
+  margin-top: 60px;
+  margin-bottom: 150px;
+  border-top: 1px solid #dddddd;
 }
 main .mainContent:last-child {
   margin-bottom: 120px;
 }
+main .mainContent:first-child {
+  border-top: none;
+}
 main .mainContent .contentSection {
   display: flex;
   flex-direction: column;
-  width: 440px;
+  width: 450px;
 }
 main .mainContent .contentSection h1,
 main .mainContent .contentSection h2,
@@ -63,12 +70,11 @@ main .mainContent .contentSection h3 {
   font-weight: 400;
   line-height: 56px;
   letter-spacing: 1px;
-  margin: 60px 0 0;
 }
 main .mainContent .contentSection .sectionP {
   font-size: 18px;
   line-height: 24px;
-  width: 424px;
+  width: 450px;
   margin: 17px 0 0;
   color: rgba(5, 0, 56, 0.6);
 }
@@ -76,11 +82,11 @@ main .mainContent .contentSection form {
   display: flex;
   flex-direction: column;
   margin: 55px 0 0;
-  width: 440px;
+  width: 450px;
 }
 main .mainContent .contentSection form input {
   font-size: 18px;
-  width: 440px;
+  width: 450px;
   height: 48px;
   outline: none;
   padding: 0 20px;
@@ -92,7 +98,7 @@ main .mainContent .contentSection form input:hover {
 }
 main .mainContent .contentSection form button {
   margin: 10px 0 0 0;
-  width: 440px;
+  width: 450px;
   height: 48px;
   outline: none;
   border: none;
@@ -102,25 +108,36 @@ main .mainContent .contentSection form button {
   border-radius: 32px;
 }
 main .mainContent .contentSection .sectionA {
-  font-size: 14px;
-  margin: 8px 0 0;
+  font-size: 18px;
+  margin: 20px 0 0;
+  color: #888888;
   text-decoration: none;
 }
 main .mainContent .contentSection .sectionA:hover {
   text-decoration: underline;
+  color: #757575;
 }
 main .mainContent .contentSection .sectionA:last-child {
   margin: 40px 0 0;
 }
+main .mainContent .contentSection .a1 {
+  font-size: 14px;
+}
 main .mainContent .contentSection .sectionContainer {
   display: flex;
   justify-content: space-between;
-  width: 440px;
+  width: 450px;
   margin: 60px 0 0;
 }
 main .mainContent .contentSection .sectionContainer .containerUsers {
   font-size: 18px;
   align-self: center;
+}
+main .mainContent .contentSection .sectionContainer .containerUsers .usersP {
+  color: #757575;
+}
+main .mainContent .contentSection .sectionContainer .containerUsers .usersP data {
+  color: #757575;
 }
 main .mainContent .contentSection .sectionContainer .containerPartners {
   display: flex;
@@ -131,8 +148,31 @@ main .mainContent .contentImg {
   display: inline;
   -o-object-fit: contain;
      object-fit: contain;
-  margin-left: 65px;
+  margin-left: 300px;
 }
 main .mainContent .contentImg:first-child {
-  margin: 0 65px 0 0;
+  margin: 0 300px 0 0;
+}
+
+footer {
+  background-color: #050038;
+}
+footer .footerBlock {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 16px;
+  width: 1366px;
+  height: 115px;
+}
+footer .footerBlock .blockCopyright {
+  color: #fff;
+}
+footer .footerBlock .blockConfidentiality {
+  color: #fff;
+  margin-left: 40px;
+  text-decoration: none;
+}
+footer .footerBlock .blockConfidentiality:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
