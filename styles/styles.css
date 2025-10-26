@@ -50,7 +50,7 @@ main .mainContent {
 main .mainContent .contentSection {
   display: flex;
   flex-direction: column;
-  width: 490px;
+  width: 440px;
 }
 main .mainContent .contentSection h1 {
   font-size: 48px;
@@ -106,11 +106,17 @@ main .mainContent .contentSection .sectionA:hover {
 main .mainContent .contentSection .sectionContainer {
   display: flex;
   justify-content: space-between;
+  width: 440px;
   margin: 60px 0 0;
 }
 main .mainContent .contentSection .sectionContainer .containerUsers {
-  align-self: center;
   font-size: 18px;
+  align-self: center;
+}
+main .mainContent .contentSection .sectionContainer .containerPartners {
+  display: flex;
+  width: 222px;
+  justify-content: space-between;
 }
 main .mainImg {
   -o-object-fit: contain;
