@@ -6,11 +6,14 @@
   color: #050038;
 }
 header {
+  display: flex;
+  border: 1px solid #e5e7eb;
+  justify-content: center;
   nav {
     display: flex;
     align-items: center;
+    width: 1366px;
     height: 90px;
-    border: 1px solid #e5e7eb;
     ul {
       display: flex;
       list-style: none;
@@ -19,7 +22,7 @@ header {
         margin-left: 34px;
         line-height: 24px;
         &:first-child {
-          margin-left: 50px;
+          margin-left: 0;
         }
         a {
           text-decoration: none;
@@ -34,11 +37,13 @@ header {
 }
 main {
   display: flex;
+  margin: 0 auto;
   justify-content: space-between;
-  .content1 {
+  width: 1366px;
+  .mainContent {
     display: flex;
     flex-direction: column;
-    .section1 {
+    .contentSection {
       display: flex;
       flex-direction: column;
       width: 490px;
@@ -48,18 +53,18 @@ main {
         line-height: 56px;
         letter-spacing: 1px;
         width: 285px;
-        margin: 60px 0 0 50px;
+        margin: 60px 0 0;
       }
-      .fromH1 {
+      .sectionP {
         font-size: 18px;
         line-height: 24px;
         width: 424px;
-        margin: 17px 0 0 50px;
+        margin: 17px 0 0;
       }
       form {
         display: flex;
         flex-direction: column;
-        margin: 55px 0 0 50px;
+        margin: 55px 0 0;
         width: 440px;
         input {
           font-size: 18px;
@@ -85,27 +90,26 @@ main {
           border-radius: 32px;
         }
       }
-      .fromSection1 {
+      .sectionA {
         font-size: 14px;
-        margin: 8px 0 0 50px;
+        margin: 8px 0 0;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
         }
       }
-      .usersAndPartners {
+      .sectionContainer {
         display: flex;
         justify-content: space-between;
-        margin: 60px 0 0 50px;
-        .users {
+        margin: 60px 0 0;
+        .containerUsers {
           align-self: center;
           font-size: 18px;
         }
       }
     }
   }
-  .imgFonts {
+  .mainImg {
     object-fit: contain;
-    margin: 0 50px 0 0;
   }
 }
