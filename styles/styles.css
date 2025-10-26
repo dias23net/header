@@ -11,8 +11,10 @@ header {
   justify-content: center;
 }
 header nav {
-  display: flex;
+  position: fixed;
+  align-content: center;
   align-items: center;
+  background-color: #fff;
   width: 1366px;
   height: 90px;
 }
@@ -38,8 +40,6 @@ header nav ul li a:hover {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
   width: 1366px;
 }
@@ -47,7 +47,7 @@ main .mainContent {
   display: flex;
   align-items: center;
   height: 600px;
-  margin-top: 60px;
+  margin-top: 120px;
   margin-bottom: 150px;
   border-top: 1px solid #dddddd;
 }
