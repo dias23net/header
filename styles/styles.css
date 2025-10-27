@@ -108,12 +108,12 @@ main .mainContent .contentSection form button {
 main .mainContent .contentSection .sectionA {
   font-size: 18px;
   margin: 20px 0 0;
-  color: #888888;
+  color: #3b82f6;
   text-decoration: none;
 }
 main .mainContent .contentSection .sectionA:hover {
   text-decoration: underline;
-  color: #757575;
+  color: #707070;
 }
 main .mainContent .contentSection .sectionA:last-child {
   margin: 40px 0 0;

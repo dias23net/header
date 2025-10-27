@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.privacy {
+  display: flex;
+  justify-content: center;
+  list-style: inside;
+  h1 {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e4e4;
+    width: 800px;
+    padding: 60px 60px;
+    .privacy__section {
+      h2 {
+        margin-top: 20px;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+}
